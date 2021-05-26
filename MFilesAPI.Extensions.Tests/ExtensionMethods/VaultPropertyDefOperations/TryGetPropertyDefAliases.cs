@@ -6,7 +6,7 @@ namespace MFilesAPI.Extensions.Tests.ExtensionMethods.VaultPropertyDefOperations
 {
 	[TestClass]
 	public class TryGetPropertyDefAliases
-		: VaultPropertyDefOperationsTestBase
+		: VaultCustomApplicationOperationsTestBase
 	{
 		[TestMethod]
 		[ExpectedException(typeof(ArgumentNullException))]

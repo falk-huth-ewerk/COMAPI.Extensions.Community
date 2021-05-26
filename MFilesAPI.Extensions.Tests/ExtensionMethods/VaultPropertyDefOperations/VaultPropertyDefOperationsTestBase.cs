@@ -7,7 +7,7 @@ using Moq;
 
 namespace MFilesAPI.Extensions.Tests.ExtensionMethods.VaultPropertyDefOperations
 {
-	public abstract class VaultPropertyDefOperationsTestBase
+	public abstract class VaultCustomApplicationOperationsTestBase
 	{
 		protected virtual Mock<MFilesAPI.VaultPropertyDefOperations> GetVaultPropertyDefOperationsMock()
 		{

@@ -5,7 +5,7 @@ namespace MFilesAPI.Extensions.Tests.ExtensionMethods.VaultPropertyDefOperations
 {
 	[TestClass]
 	public class TryGetPropertyDefDataType
-		: VaultPropertyDefOperationsTestBase
+		: VaultCustomApplicationOperationsTestBase
 	{
 		[TestMethod]
 		[ExpectedException(typeof(ArgumentNullException))]
